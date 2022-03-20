@@ -22,6 +22,14 @@ local ATH10K_PACKAGES_QCA9888 = {
 	'-ath10k-firmware-qca9888-ct',
 }
 
+local ATH10K_PACKAGES_QCA9980 = {
+	'kmod-ath10k',
+	'-kmod-ath10k-ct',
+	'-kmod-ath10k-ct-smallbuffers',
+	'ath10k-firmware-qca99x0',
+	'-ath10k-firmware-qca99x0-ct',
+}
+
 -- AVM
 
 device('avm-fritz-box-4020', 'avm_fritz4020', {
@@ -73,6 +81,11 @@ device('d-link-dap-1365-a1', 'dlink_dap-1365-a1')
 device('d-link-dap-2660-a1', 'dlink_dap-2660-a1', {
 	factory_ext = '.img',
 	packages = ATH10K_PACKAGES_QCA9880,
+})
+
+device('d-link-dap-2680-a1', 'dlink_dap-2680-a1', {
+	factory_ext = '.img',
+	packages = ATH10K_PACKAGES_QCA9980,
 })
 
 device('d-link-dir-505', 'dlink_dir-505', {
