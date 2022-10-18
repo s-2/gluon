@@ -138,6 +138,7 @@ ath79-generic
 * Zyxel
 
   - NWA1100-NH [#lan_as_wan]_
+  - NWA1121-NI [#lan_as_wan]_
 
 ath79-nand
 ----------

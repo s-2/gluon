@@ -574,3 +574,7 @@ device('ubiquiti-unifi-ap-pro', 'ubnt_unifi-ap-pro')
 device('zyxel-nwa1100-nh', 'zyxel_nwa1100-nh', {
 	factory_ext = '-AASI.bin',
 })
+
+device('zyxel-nwa1121-ni', 'zyxel_nwa1121-ni', {
+	factory_ext = '-AABJ.bin',
+})
