@@ -135,6 +135,10 @@ ath79-generic
   - UniFi AP Outdoor+
   - UniFi AP PRO
 
+* Zyxel
+
+  - NWA1100-NH [#lan_as_wan]_
+
 ath79-nand
 ----------
 
