@@ -139,6 +139,7 @@ ath79-generic
 
   - NWA1100-NH [#lan_as_wan]_
   - NWA1121-NI [#lan_as_wan]_
+  - NWA1123-AC [#lan_as_wan]_
   - NWA1123-NI [#lan_as_wan]_
 
 ath79-nand

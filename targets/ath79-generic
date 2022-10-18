@@ -579,6 +579,11 @@ device('zyxel-nwa1121-ni', 'zyxel_nwa1121-ni', {
 	factory_ext = '-AABJ.bin',
 })
 
+device('zyxel-nwa1123-ac', 'zyxel_nwa1123-ac', {
+	factory_ext = '-AAOX.bin',
+	packages = ATH10K_PACKAGES_QCA9880,
+})
+
 device('zyxel-nwa1123-ni', 'zyxel_nwa1123-ni', {
 	factory_ext = '-AAEO.bin',
 })
