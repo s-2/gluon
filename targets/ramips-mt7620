@@ -5,6 +5,13 @@ device('asus-rt-ac51u', 'asus_rt-ac51u', {
 })
 
 
+-- D-Link
+
+device('d-link-dwr-921-c1', 'dlink_dwr-921-c1', {
+	packages = {'gluon-web-cellular'},
+})
+
+
 -- GL.iNet
 
 device('gl-mt300a', 'glinet_gl-mt300a', {

@@ -79,6 +79,10 @@ function M.is_cellular_device()
 		'glinet,gl-ap1300',
 	}) then
 		return true
+	elseif M.match('ramips', 'mt7620', {
+		'dlink,dwr-921-c1',
+	}) then
+		return true
 	elseif M.match('ramips', 'mt7621', {
 		'wavlink,ws-wn572hp3-4g',
 	}) then
