@@ -32,6 +32,7 @@ ath79-generic
 
   - DAP-1330 A1 [#lan_as_wan]_
   - DAP-1365 A1 [#lan_as_wan]_
+  - DAP-2230 A1 [#lan_as_wan]_
   - DAP-2660 A1 [#lan_as_wan]_
   - DAP-2680 A1 [#lan_as_wan]_
   - DAP-2695 A1 [#lan_as_wan]_
