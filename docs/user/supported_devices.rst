@@ -35,6 +35,7 @@ ath79-generic
   - DAP-2660 A1 [#lan_as_wan]_
   - DAP-2680 A1 [#lan_as_wan]_
   - DAP-2695 A1 [#lan_as_wan]_
+  - DAP-3662 A1 [#lan_as_wan]_
   - DIR-505 A1 [#lan_as_wan]_
   - DIR-505 A2 [#lan_as_wan]_
   - DIR-825 B1
